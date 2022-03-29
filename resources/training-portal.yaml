@@ -1,0 +1,23 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: tap-demos
+spec:
+  portal:
+    title: VMware Tanzu Application Platform Demos
+    ingress:
+        hostname: tap-demos
+    registration:
+        type: anonymous
+    updates:
+      workshop: true
+    sessions:
+      maximum: 2
+    reserved: 1
+  workshops:
+    - name: tap-demo
+      expires: 90m
+      orphaned: 90m
+    - name: tap-install-workshop
+      expires: 180m
+      orphaned: 180m

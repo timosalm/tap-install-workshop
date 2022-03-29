@@ -1,0 +1,121 @@
+modules:
+    setup-environment:
+        name: Setup Environment
+        exit_sign: Workshop Overview
+    workshop-overview:
+        name: Workshop Overview
+        exit_sign: Carvel
+    exercises/Carvel:
+        name: Build on Kubernetes with confidence
+        exit_sign: ytt
+    exercises/Ytt:
+        name: All your YAML shaping in one tool
+        exit_sign: kbld, imgpkg, and vendir
+    exercises/Kbld-imgpkg-vendir:
+        name: The Carvel tools kbld, imgpkg, and vendir
+        exit_sign: kapp
+    exercises/Kapp:
+        name: Take control of your Kubernetes resources
+        exit_sign: kapp- and secretgen-controller
+    exercises/Kapp-Secret-Controller:
+        name: The kapp- and secretgen-controller
+        exit_sign: Cluster Essentials
+    exercises/Cluster-Essentials:
+        name: Install Cluster Essentials for VMware Tanzu
+        exit_sign: secretgen-controller
+    exercises/Secret-Controller:
+        name: Generate, export and import Secrets across namespaces
+        exit_sign: kapp-controller
+    exercises/Kapp-Controller:
+        name: Continuous delivery and package management for Kubernetes
+        exit_sign: Package management
+    exercises/Packages:
+        name: Package management for Kubernetes
+        exit_sign: Installation Profiles
+    exercises/Prepare-Install:
+        name: Tanzu Application Platform Installation Profiles
+        exit_sign: Install first Packages
+    exercises/Install-Basic-Packages:
+        name: Install the first Packages required for other components
+        exit_sign: TBS (1/2)
+    exercises/TBS-Install:
+        name: Installing the VMware Tanzu Build Service
+        exit_sign: TBS (2/2)
+    exercises/TBS-Use:
+        name: Getting Started with the VMware Tanzu Build Service
+        exit_sign: CNRs (1/2)
+    exercises/CNRS-Install:
+        name: Installing the Cloud Native Runtimes for VMware Tanzu
+        exit_sign: CNRs (2/2)
+    exercises/CNRS-Use:
+        name: Getting Started with the Cloud Native Runtimes for VMware Tanzu
+        exit_sign: Tekton (1/2)
+    exercises/Tekton-Install:
+        name: Installing Tekton 
+        exit_sign: Tekton (2/2)
+    exercises/Tekton-Use:
+        name: Getting Started with Tekton
+        exit_sign: Cartographer and Supply Chains (1/5)
+    exercises/Cartographer-SC-Concept:
+        name: Easily Build Cloud Native Supply Chains
+        exit_sign: Cartographer and Supply Chains (2/5)
+    exercises/Cartographer-SC-Install:
+        name: Installing Cartographer and the OOTB basic Supply Chain
+        exit_sign: Cartographer and Supply Chains (3/5)
+    exercises/Cartographer-SC-Use:
+        name: Getting Started with Cartographer and the OOTB basic Supply Chain
+        exit_sign: TAP GUI (1/2)
+    exercises/TAP-GUI-Install:
+        name: Installing the TAP GUI
+        exit_sign: TAP GUI (2/2)
+    exercises/TAP-GUI-Use:
+        name: Getting Started with the TAP GUI
+        exit_sign: App Accelerators (1/2)
+    exercises/App-Accelerator-Install:
+        name: Installing the App Accelerators
+        exit_sign: App Accelerators (2/2)
+    exercises/App-Accelerator-Use:
+        name: Getting Started with App Accelerators
+        exit_sign: App-Live View (1/2)
+    exercises/App-Live-View-Install:
+        name: Installing App-Live view
+        exit_sign: App-Live View (2/2)
+    exercises/App-Live-View-Use:
+        name: Getting Started with App-Live view
+        exit_sign: Cartographer and Supply Chains (3/5)
+    exercises/SupplyChain-Secure-Install:
+        name: Installing the OOTB testing and scanning Supply Chain
+        exit_sign: Cartographer and Supply Chains (4/5)
+    exercises/SupplyChain-Secure-Use:
+        name: Getting Started with the testing and scanning Supply Chain
+        exit_sign: Services Toolkit (1/2)
+    exercises/Services-Toolkit-Install:
+        name: Installing Services Toolkit
+        exit_sign: Services Toolkit (2/2)
+    exercises/Services-Toolkit-Use:
+        name: Getting Started with Services Toolkit
+        exit_sign: API Portal (1/2)
+    exercises/API-Portal-Install:
+        name: Installing the API Portal
+        exit_sign: API Portal (2/2)
+    exercises/API-Portal-Use:
+        name: Getting Started with the API Portal
+        exit_sign: Inner Loop (1/2)
+    exercises/Inner-Loop-Install:
+        name: Installing the Inner Loop IDE plugins
+        exit_sign: Inner Loop (2/2)
+    exercises/Inner-Loop-Use:
+        name: Getting Started with the Inner Loop IDE plugins
+        exit_sign: Learning Center (1/2)
+    exercises/Learning-Center-Install:
+        name: Installing the Learning Center
+        exit_sign: Learning Center (2/2)
+    exercises/Learning-Center-Use:
+        name: Getting Started with the Learning Center
+        exit_sign: Reference Architecture (2/2)
+    exercises/Reference-Architecture:
+        name: The future Reference Architecture for TAP
+        exit_sign: Conclusion
+    workshop-summary:
+        name: Workshop Summary
+        exit_sign: Finish Workshop

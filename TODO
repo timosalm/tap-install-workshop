@@ -1,0 +1,19 @@
+- Tekton: print Knative Service url in output
+- One example for ytt
+- TAS adapter / kubectl krew install hns
+- Dev namespace install
+- Why not helm? -> reconciation instead of 
+- Visualisation of current state
+- Show Ingress with Domain and "curl -H "Host: tap.example.com"  localhost:8080"
+- tanzu auto complete
+- Backstage
+- Convetion controller
+- Why Cartographer
+- GitOps
+- RBAC
+- Install CLI?! // what is tanzu framework // https://github.com/adrg/xdg#xdg-base-directory
+- Show Cluster Essentials dir contents
+- Backstage in details
+- Different registry
+- tap-telemetry.tanzu.vmware.com required/excludable?
+- https://tanzu.vmware.com/developer/guides/tanzu-application-platform-can-leverage-cartographer-to-automate-cicd/

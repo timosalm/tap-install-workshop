@@ -1,0 +1,6 @@
+values.yaml
+tanzu-framework-linux-amd64.tar
+### IntelliJ IDEA ###
+.idea
+### VS Code ###
+.vscode/
