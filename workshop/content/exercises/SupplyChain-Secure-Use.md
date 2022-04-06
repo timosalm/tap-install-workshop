@@ -71,7 +71,7 @@ text: |
         isCompliant = isSafe(input.currentVulnerability)
 ```
 ```terminal:execute
-command: kubectl apply -f scan-policy.yaml
+command: kubectl apply -f scan-policy.yaml -n dev-space
 clear: true
 ```
 
@@ -83,8 +83,8 @@ text: |
     kind: Pipeline
     metadata:
       name: developer-defined-tekton-pipeline
-    labels:
-      apps.tanzu.vmware.com/pipeline: test     # (!) required
+      labels:
+        apps.tanzu.vmware.com/pipeline: test     # (!) required
     spec:
       params:
         - name: source-url                       # (!) required

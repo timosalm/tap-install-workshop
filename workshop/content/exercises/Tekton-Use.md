@@ -187,7 +187,7 @@ command:  |
       steps:
       - name: build-and-push
         image: kpack/kp
-        script: |2
+        script: |-
             #!/bin/bash
             set -euxo pipefail
 
