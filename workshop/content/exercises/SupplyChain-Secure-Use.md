@@ -115,7 +115,7 @@ clear: true
 
 To run our Workload with the new supply chain we have to mark the Workload as having tests enabled.
 ```execute
-tanzu apps workload update spring-sensors -n dev-space   --label apps.tanzu.vmware.com/has-tests=true \
+tanzu apps workload update spring-sensors -n dev-space --label apps.tanzu.vmware.com/has-tests=true
 ```
 
 {% raw %}
